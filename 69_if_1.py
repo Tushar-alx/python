@@ -7,7 +7,8 @@ difference = selling_price - purchase_price
 
 if difference > 0:
     print("Profit Amount:", difference)
-elif difference < 0: 
+if difference < 0: 
     print("Loss Amount:", difference)
 if difference == 0:
+
     print("No Profit No Loss")
